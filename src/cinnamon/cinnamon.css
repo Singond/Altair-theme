@@ -803,9 +803,24 @@ StScrollBar StButton#vhandle:hover {
 /* ===================================================================
  * Alt Tab
  * ===================================================================*/
+/* Screen overlay */
 #altTabPopup {
-	padding: 8px;
-	spacing: 16px;
+/*	background: rgba(0, 0, 0, 0.1);*/
+}
+/* Task switcher */
+#altTabPopup .switcher-list {
+	padding: 16px;
+	background: rgba(0, 0, 0, 0.9);
+}
+#altTabPopup .switcher-list .item-box {
+	padding: 16px;
+	border: none;
+}
+#altTabPopup .switcher-list .item-box:selected {
+	background: rgba(255, 255, 255, 0.33);
+	background-gradient-direction: vertical;
+	background-gradient-start: rgba(255, 255, 255, 0.5);
+	background-gradient-end: rgba(255, 255, 255, 0.2);
 }
 
 /* ===================================================================
