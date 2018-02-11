@@ -125,15 +125,6 @@ StScrollBar StButton#vhandle:hover {
     font-size: 9.5pt;
     min-width: 100px;
 }
-.menu {
-    border-radius: 8px;
-    background-color: rgba(80,80,80,0.9);
-    border-width: 2px;
-    border-color: #a5a5a5;
-    color: #ffffff;
-    font-size: 9.5pt;
-    min-width: 100px;
-}
 .popup-menu-arrow {
     icon-size: 1.14em;
 }
@@ -1038,6 +1029,13 @@ StScrollBar StButton#vhandle:hover {
 /* ===================================================================
  * Menu (menu.js)
  * ===================================================================*/
+.menu {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #ffffff;
+    font-size: 9.5pt;
+    min-width: 100px;
+}
 /* Main menu title */
 
 .menu-favorites-box {
