@@ -872,6 +872,13 @@ StScrollBar StButton#vhandle:hover {
 /* ===================================================================
  * Run dialog
  * ===================================================================*/
+.run-dialog {
+	padding: 16px 24px;
+	border-radius: 0px;
+	border: none;
+	background: rgba(0, 0, 0, 0.7);
+	/*box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.8);*/
+}
 .run-dialog-label {
 	font-size: 9pt;
 	color: white;
@@ -896,13 +903,7 @@ StScrollBar StButton#vhandle:hover {
 	selection-background-color: white;
 	selected-color: black;
 }
-.run-dialog {
-	border-radius: 16px;
-	padding-right: 21px;
-	padding-left: 21px;
-	padding-bottom: 15px;
-	padding-top: 15px;
-}
+/* Overlay */
 .lightbox {
 	background-color: rgba(0, 0, 0, 0.4);
 }
