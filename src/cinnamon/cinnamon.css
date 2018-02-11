@@ -740,15 +740,10 @@ StScrollBar StButton#vhandle:hover {
     selection-background-color: #808080;
 }
 /* ===================================================================
- * Alt Tab
+ * Window list thumbnails
  * ===================================================================*/
-#altTabPopup {
-    padding: 8px;
-    spacing: 16px;
-}
 .switcher-list {
     background: rgba(80,80,80,0.8);
-    border: 2px solid #a5a5a5;
     border-radius: 8px;
     padding: 20px;
     font-size: 9pt;
@@ -816,6 +811,14 @@ StScrollBar StButton#vhandle:hover {
 }
 .switcher-preview-backdrop {
     background-color: rgba(25,25,25,0.65);
+}
+
+/* ===================================================================
+ * Alt Tab
+ * ===================================================================*/
+#altTabPopup {
+    padding: 8px;
+    spacing: 16px;
 }
 
 /* ===================================================================
