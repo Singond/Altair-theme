@@ -249,7 +249,10 @@ StScrollBar StButton#vhandle:hover {
  * ===================================================================*/
 #panel {
     color: #ffffff;
-    background-color: #555555;
+    background-gradient-direction: vertical;
+    background-gradient-start: rgba(0, 0, 0, 0.8);
+    background-gradient-end: rgba(0, 0, 0, 0.9);
+    border-top: 1px solid rgba(192, 192, 192, 0.4);
     font-size: 8.5pt;
     font-weight: normal;
     height: 26px;
