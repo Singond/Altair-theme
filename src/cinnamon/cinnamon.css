@@ -817,10 +817,10 @@ StScrollBar StButton#vhandle:hover {
 	border: none;
 }
 #altTabPopup .switcher-list .item-box:selected {
-	background: rgba(255, 255, 255, 0.33);
 	background-gradient-direction: vertical;
-	background-gradient-start: rgba(255, 255, 255, 0.5);
-	background-gradient-end: rgba(255, 255, 255, 0.2);
+	background-gradient-start: rgba(255, 255, 255, 0.3);
+	background-gradient-end: rgba(255, 255, 255, 0.1);
+	box-shadow: inset 0 0 1px 0.5px rgba(255, 255, 255, 0.5);
 }
 
 /* ===================================================================
