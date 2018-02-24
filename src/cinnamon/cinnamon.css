@@ -447,7 +447,7 @@ StScrollBar StButton#vhandle:hover {
 }
 
 .workspace-close-button {
-	background-image: url("close-window.svg");
+	background-image: url("close-window-white.svg");
 	height: 34px;
 	width: 34px;
 	-cinnamon-close-overlap: 20px;
@@ -466,10 +466,13 @@ StScrollBar StButton#vhandle:hover {
 	-cinnamon-caption-spacing: 4px;
 }
 .window-close {
-	background-image: url("close-window.svg");
+	background-image: url("close-window-white.svg");
 	height: 34px;
 	width: 34px;
 	-cinnamon-close-overlap: 20px;
+}
+.window-close:hover {
+	background-image: url("close-window-red.svg");
 }
 .window-close:rtl {
 	-st-background-image-shadow: 2px 2px 6px rgba(0,0,0,0.5);
