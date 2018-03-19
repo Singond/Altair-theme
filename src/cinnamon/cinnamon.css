@@ -1703,23 +1703,21 @@ StScrollBar StButton#vhandle:hover {
 
 .expo-workspaces-name-entry {
 	padding: 5px;
-	border-radius: 4px;
-	color: rgb(200, 200, 200);
-	border: 2px solid rgb(136,138,133);
-	background-gradient-start: rgb(128,128,128);
-	background-gradient-end: rgb(85,85,85);
+	width: 250px;
+	height: 15px;
+	background-gradient-start: rgba(24, 24, 24, 0.5);
+	background-gradient-end: rgba(0, 0, 0, 0.5);
 	background-gradient-direction: vertical;
+	color: rgb(200, 200, 200);
 	selected-color: black;
 	caret-color: rgb(128, 128, 128);
 	caret-size: 1px;
-	width: 250px;
-	height: 15px;
-	box-shadow: inset 0px 2px 4px rgba(0,0,0,0.6);
+/* 	box-shadow: inset 0px 2px 4px rgba(0,0,0,0.6); */
 	text-align: center;
 }
 
 .expo-workspaces-name-entry#selected {
-	background-gradient-start: rgb(200,200,200);
+	background-gradient-start: rgb(222,222,222);
 	background-gradient-end: white;
 	font-weight: bold;
 	color: rgb(0, 0, 0);
