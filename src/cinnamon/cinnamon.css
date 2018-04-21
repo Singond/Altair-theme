@@ -768,7 +768,9 @@ StScrollBar StButton#vhandle:hover {
 	padding: 8px;
 }
 .switcher-list .thumbnail-box:outlined {
-	box-shadow: inset 0 0 2px 0 white;
+/* 	box-shadow: inset 0 0 2px 0 white; */
+/* 	border: 1px solid grey; */
+	font-weight: bold;
 }
 .switcher-list .thumbnail-box:selected {
 	background: rgba(92, 92, 92, 0.5);
