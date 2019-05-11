@@ -533,6 +533,9 @@ StScrollBar StButton#vhandle:hover {
 /* ===================================================================
  * Date applet
  * ===================================================================*/
+#panel .clock {
+	font-size: 15pt;
+}
 .calendar {
 	padding: .4em 1.75em;
 	spacing-rows: 0px;
