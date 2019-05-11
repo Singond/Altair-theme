@@ -1295,7 +1295,7 @@ StScrollBar StButton#vhandle:hover {
 	background-gradient-end: rgba(255, 255, 255, 0.2);*/
 }
 .window-list-item-box:outlined {
-	box-shadow: inset 0px 0px 1px 1px rgba(170, 170, 170, 1.0);
+	box-shadow: inset 0px 0px 0px 1px rgba(170, 170, 170, 0.5);
 }
 .window-list-item-demands-attention {
 	background-gradient-start: rgba(255,52,52,0.5);
