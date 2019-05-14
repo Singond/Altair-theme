@@ -3,6 +3,13 @@ Altair Theme for Cinnamon
 
 A personal dark theme for the Cinnamon Desktop.
 
+Installation
+============
+
+From the project root, run `make install`. This will copy the source files
+in `<project_root>/src` into `~/.themes/Altair/`. You can also copy the files
+manually. In any case, restart Cinnamon to see the changes.
+
 Compatibility
 =============
 
